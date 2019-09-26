@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Sample Webview</string>
+    <string name="bank_button_name">Connect your bank account</string>
+</resources>
