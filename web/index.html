@@ -25,10 +25,10 @@
         environment: 'sandbox',
         appKey:'YOUR APP KEY',
         redirectUri: 'YOUR REDIRECT URI',
-        onSuccess: function(access_code) {
+        onSuccess: function(accessCode) {
           //This is the callback function when the end-user connects succesfully
           console.log('onSuccess')
-          console.log(access_code)
+          console.log(accessCode)
         },
         onFailure: function(err) {
           //This is the callback function when the end-user is unable to connect succesfully
